@@ -7,10 +7,12 @@
     padding-block: 56px;
   }
 
-  &__logo {}
+  &__logo {
+    // padding-bottom: 40px;
+  }
 
   &__desc {
-    // padding-top: 40px;
+    padding-top: 40px;
     font-size: 16px;
     font-weight: 500;
     line-height: 100%;
@@ -18,14 +20,7 @@
     text-transform: uppercase;
     color: #7F8096;
   }
-
-  &__contacts {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    margin-bottom: 40px;
-  }
-
+  
   &__title {
     font-size: 48px;
     font-weight: 400;
@@ -33,7 +28,14 @@
     letter-spacing: -2.4px;
     text-transform: uppercase;
     color: #FFF;
-    // margin-bottom: 40px;
+    margin-top: 64px;
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 40px;
   }
 
   &__contact {
@@ -72,10 +74,6 @@
       transition: all 0.5s;
       color: #F9512E;
     }
-  }
-
-  &__items {
-    padding: 0;
   }
 }
 
