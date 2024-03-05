@@ -1,4 +1,7 @@
 import './assets/style/normalize.scss';
+import './assets/style/index.scss';
+import './assets/style/icon.scss';
+
 import Header from './Components/Header';
 import Hero from './Components/Hero';
 import Bake from './Components/Bake';
