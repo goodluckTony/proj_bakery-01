@@ -1,0 +1,23 @@
+$color-font-mode-black: #1C1A26;
+$color-font-mode-red: #F9512E;
+$color-bg-pink: #FFEEFC;
+$color-bg-blue: #EEF7FF;
+
+body {
+  min-width: 320px;
+
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: $color-font-mode-black;
+  letter-spacing: -0.32px;
+  background-color: $color-bg-pink;
+}
+
+.container {
+  padding-inline: 16px;
+}
+
+img {
+  // width: 100%;
+}

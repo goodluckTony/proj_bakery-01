@@ -1,0 +1,51 @@
+@import "../../assets/style/index.scss";
+
+.about {
+
+  &__content {
+    padding-top: 72px;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 85%;
+    letter-spacing: -2.4px;
+    color: $color-font-mode-red;
+    text-transform: uppercase;
+  }
+
+  &__desc {
+    padding-top: 32px;
+    line-height: 150%;
+    letter-spacing: -0.16px;
+  }
+
+  &__numbers {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding-top: 64px;
+    padding-bottom: 72px;
+  }
+}
+
+.numbers {
+
+  &__number {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &__year {
+    font-size: 96px;
+    line-height: 85%;
+    letter-spacing: -4.8;
+    color: $color-font-mode-red;
+  }
+  
+  &__achievement {
+    color: #1C1A26;
+  }
+}

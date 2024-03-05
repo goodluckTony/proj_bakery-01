@@ -1,0 +1,81 @@
+@import "../../assets/style/index.scss";
+
+.bake {
+
+  &__content {
+    padding-top: 64px;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 85%;
+    letter-spacing: -2.4px;
+    color: $color-font-mode-red;
+  }
+
+  &__desc {
+    margin-top: 24px;
+    
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.16px;
+    color: $color-font-mode-black;
+  }
+
+  &__section {}
+  
+  &__card {
+    margin-top: 56px;
+
+  }
+}
+
+.card {
+  
+  &__img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  &__title {
+    padding-top: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -0.16px;
+    color: #7F8096;
+  }
+
+  &__desc {
+    padding-top: 8px;
+    line-height: 150%;
+    letter-spacing: -0.16px;
+    color: #1C1A26;
+  }
+
+  &__link {
+    padding-top: 16px;
+
+    display: flex;
+    gap: 4px;
+    align-items: center;
+
+    font-weight: 500;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+    color: $color-font-mode-red;
+  }
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  &--arrow {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../assets/img/bake/link-arrow-icon.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

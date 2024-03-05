@@ -1,0 +1,36 @@
+.header {
+
+  &__container {
+    padding-inline: 16px;
+  }
+  
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 16px;
+  }
+
+  &__logo {
+    
+  }
+
+}
+
+.menu {
+
+  &__content {}
+
+  &__list {}
+
+  &__items {}
+
+  &__link {}
+
+  &__contact {}
+}
+
+.page {
+
+  &__menu {}
+}

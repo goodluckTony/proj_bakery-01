@@ -1,0 +1,53 @@
+@import "../../assets/style/index.scss";
+
+.hero {
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 32px 0 40px;
+  }
+
+  &__desc {
+    margin-bottom: 32px;
+    text-align: center;
+    line-height: 150%;
+  }
+  
+  &__title {
+    font-size: 64px;
+    line-height: 85%;
+    letter-spacing: -3.2px;
+    color: $color-font-mode-red;
+    text-transform: uppercase;
+    font-weight:400;
+    text-align: center;
+  }
+
+  &__img {}
+
+  &__button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 18px 77px;
+    border: 2px solid #F9512E;
+    border-radius: 32px;
+    color: #F9512E;
+
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.32;
+
+
+    &::before {
+      content: '';
+      display: inline-flex;
+      width: 20px;
+      height: 20px;
+      background-image: url("../../assets/img/hero/cookie-icon.svg");
+    }
+  }
+}
