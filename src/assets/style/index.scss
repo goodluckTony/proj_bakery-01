@@ -1,3 +1,5 @@
+@import "../mixins/index.scss";
+
 $color-font-mode-black: #1C1A26;
 $color-font-mode-red: #F9512E;
 $color-bg-pink: #FFEEFC;
@@ -16,8 +18,13 @@ body {
 
 .container {
   padding-inline: 16px;
+
+  @include onTablet {
+    padding-inline: 44px;
+  }
+
+  @include onDesktopXL {
+    padding-inline: 124px;
+  }
 }
 
-img {
-  // width: 100%;
-}

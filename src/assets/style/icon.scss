@@ -3,8 +3,16 @@
   width: 24px;
   height: 24px;
 
+  &--phone {
+    background-image: url("../img/header/phone-icon.svg");
+  }
+
   &--menu {
     background-image: url("../img/header/menu-icon-open.svg");
+  }
+
+  &--close {
+    background-image: url("../img/header/menu-icon-close.svg");
   }
 
   &--facebook {

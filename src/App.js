@@ -1,6 +1,7 @@
 import './assets/style/normalize.scss';
 import './assets/style/index.scss';
 import './assets/style/icon.scss';
+import './assets/mixins/index.scss';
 
 import Header from './Components/Header';
 import Hero from './Components/Hero';

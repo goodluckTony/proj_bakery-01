@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer__content">
           <div className="menu__content menu__content--footer">
             <a className="footer__logo" href="#"><img src={FooterLogo} alt="logo" /></a>
-            <h3 className="footer__desc">Menu</h3>
+            <h3 className="footer__desc footer__desc--footer-menu">Menu</h3>
             <nav className="menu__list menu__list--footer">
               <ul className="menu__items menu__items--footer">
                 <li><a className="menu__link menu__link--footer" href="#bake">Products</a></li>

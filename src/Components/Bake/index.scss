@@ -4,6 +4,10 @@
 
   &__content {
     padding-top: 64px;
+    
+    @include onTablet {
+      padding-top: 0;
+    }
   }
 
   &__title {
@@ -12,6 +16,11 @@
     line-height: 85%;
     letter-spacing: -2.4px;
     color: $color-font-mode-red;
+    text-transform: uppercase;
+
+    @include onTablet {
+      font-size: 56px;
+    }
   }
 
   &__desc {
@@ -23,11 +32,41 @@
     color: $color-font-mode-black;
   }
 
-  &__section {}
+  &__section {
+    @include onTablet {
+      @include pageGrid;
+    }
+    
+  }
   
   &__card {
     margin-top: 56px;
 
+    @include onTablet {
+      margin-top: 80px;
+      grid-column: span 4;
+    }
+  }
+
+  &__card:nth-child(n+1) {
+    
+    @include onDesktopL {        
+      grid-column: span 3;
+    }
+  }
+
+  &__card:nth-child(3) {
+    
+    @include onDesktopL {        
+      grid-column: 3/6;
+    }
+  }
+
+  &__card:nth-child(4) {
+    
+    @include onDesktopL {        
+      grid-column: span 3;
+    }
   }
 }
 
@@ -36,6 +75,22 @@
   &__img {
     width: 100%;
     border-radius: 8px;
+
+    transition: transform .5s;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    // @include onDesktopL {
+    //   max-width: 402px;
+    //   height: 512px;
+    // }
+  
+    // @include onDesktopXL {
+    //   max-width: 432px;
+    //   height: 560px;
+    // }
   }
 
   &__title {
@@ -70,6 +125,7 @@
 .icon {
   display: flex;
   align-items: center;
+  
   &--arrow {
     display: block;
     width: 24px;

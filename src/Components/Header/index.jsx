@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './index.scss';
-// import '../../assets/style/index.scss';
-// import '../../assets/style/icon.scss';
 import Logo from  '../../assets/img/header/logo-icon.svg';
 
 const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <>
       <header className="header">
@@ -26,21 +34,21 @@ const Header = () => {
                 Contact us
               </a>
             </div>
-            <a className="icon icon--menu" href="#menu"></a>
+            <a className="icon icon--menu" onClick={toggleMenu} href="#menu"></a>
           </div>
         </div>
       </header>
-      <aside className="page__menu menu" id="menu" style={{ display: "none" }}>
+      <aside className={`page__menu ${isMenuOpen ? 'open' : ''}`} id="menu">
         <div className="menu__container">
           <div className="menu__top">
             <a className="menu__logo" href="#">
-              <img src="./images/icons/logo-icon.svg" alt="logo" />
+              <img src={Logo} alt="logo" />
             </a>
-            <a className="icon icon--close" href="#"></a>
+            <a className="icon icon--close" onClick={toggleMenu} href="#"></a>
           </div>
           <div className="menu__content">
             <nav className="menu__list">
-              <ul className="menu__items">
+              <ul className="menu__items" onClick={toggleMenu}>
                 <li><a className="menu__link" href="#bake">Products</a></li>
                 <li><a className="menu__link" href="#about">About Us</a></li>
                 <li><a className="menu__link" href="#">Blog</a></li>
