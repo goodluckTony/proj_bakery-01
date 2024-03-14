@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/proj_bakery-01/static/css/main.cf39644e.css",
+    "main.css": "/proj_bakery-01/static/css/main.7be37e21.css",
     "main.js": "/proj_bakery-01/static/js/main.99e541ad.js",
     "static/media/cookie-bg.png": "/proj_bakery-01/static/media/cookie-bg.cdeb2bff0e89284cddca.png",
     "static/media/Crumbs.png": "/proj_bakery-01/static/media/Crumbs.1833eda8b8c236ef9372.png",
@@ -9,16 +9,17 @@
     "static/media/insta-logo.svg": "/proj_bakery-01/static/media/insta-logo.1e3b40f8487ff9884fd7.svg",
     "static/media/cookie-icon.svg": "/proj_bakery-01/static/media/cookie-icon.5cc8ff578199160835b5.svg",
     "static/media/twitt-logo.svg": "/proj_bakery-01/static/media/twitt-logo.f508770b5bbe5324bd9b.svg",
+    "static/media/phone-icon.svg": "/proj_bakery-01/static/media/phone-icon.f1fb5de76d5249fcaaf1.svg",
     "index.html": "/proj_bakery-01/index.html",
     "static/media/menu-icon-close.svg": "/proj_bakery-01/static/media/menu-icon-close.f4d24dbed53bc85753b2.svg",
     "static/media/fb-logo.svg": "/proj_bakery-01/static/media/fb-logo.af7b68dbc2de7f802a6a.svg",
     "static/media/link-arrow-icon.svg": "/proj_bakery-01/static/media/link-arrow-icon.5a6b37f2bec3817426d5.svg",
     "static/media/menu-icon-open.svg": "/proj_bakery-01/static/media/menu-icon-open.85a80f97646c24c00f25.svg",
-    "main.cf39644e.css.map": "/proj_bakery-01/static/css/main.cf39644e.css.map",
+    "main.7be37e21.css.map": "/proj_bakery-01/static/css/main.7be37e21.css.map",
     "main.99e541ad.js.map": "/proj_bakery-01/static/js/main.99e541ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf39644e.css",
+    "static/css/main.7be37e21.css",
     "static/js/main.99e541ad.js"
   ]
 }
