@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/proj_bakery-01/static/css/main.7be37e21.css",
-    "main.js": "/proj_bakery-01/static/js/main.99e541ad.js",
+    "main.css": "/proj_bakery-01/static/css/main.eebfc321.css",
+    "main.js": "/proj_bakery-01/static/js/main.ba77cd01.js",
     "static/media/cookie-bg.png": "/proj_bakery-01/static/media/cookie-bg.cdeb2bff0e89284cddca.png",
     "static/media/Crumbs.png": "/proj_bakery-01/static/media/Crumbs.1833eda8b8c236ef9372.png",
     "static/media/logo-icon.svg": "/proj_bakery-01/static/media/logo-icon.54356042639484d6da895c1a136beeac.svg",
@@ -15,11 +15,11 @@
     "static/media/fb-logo.svg": "/proj_bakery-01/static/media/fb-logo.af7b68dbc2de7f802a6a.svg",
     "static/media/link-arrow-icon.svg": "/proj_bakery-01/static/media/link-arrow-icon.5a6b37f2bec3817426d5.svg",
     "static/media/menu-icon-open.svg": "/proj_bakery-01/static/media/menu-icon-open.85a80f97646c24c00f25.svg",
-    "main.7be37e21.css.map": "/proj_bakery-01/static/css/main.7be37e21.css.map",
-    "main.99e541ad.js.map": "/proj_bakery-01/static/js/main.99e541ad.js.map"
+    "main.eebfc321.css.map": "/proj_bakery-01/static/css/main.eebfc321.css.map",
+    "main.ba77cd01.js.map": "/proj_bakery-01/static/js/main.ba77cd01.js.map"
   },
   "entrypoints": [
-    "static/css/main.7be37e21.css",
-    "static/js/main.99e541ad.js"
+    "static/css/main.eebfc321.css",
+    "static/js/main.ba77cd01.js"
   ]
 }
