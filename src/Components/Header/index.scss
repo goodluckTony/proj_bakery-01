@@ -21,19 +21,46 @@
 .menu {
   
   &__content {
-    
-    @include onDesktopL {
-      display: flex !important;
+
+    &--header {
+      display: none;
+
+      @include onDesktopL {
+        display: flex;
+        align-items: center;
+        gap: 64px;
+      }
     }
   }
 
-  &__list {}
+  &__list {
 
-  &__items {}
+  }
 
-  &__link {}
+  &__items {
 
-  &__contact {}
+    &--header {
+      
+      @include onDesktopL {
+        display: flex;
+        flex-direction: row;
+        gap: 64px;
+      }
+    }
+  }
+
+  &__link {
+    color: black;
+  }
+
+  &__contact {
+    display: flex;
+    align-items: center;
+    color: #F9512E;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
 }
 
 .page {
@@ -71,16 +98,22 @@
 
   &__items {}
 
-  &__link {}
+  &__link {
+    color: black;
+  }
 
   &__contact {}
 }
 
 .icon {
 
-  @include onDesktopL {
-    display: none !important;
+  &--menu {
+    
+    @include onDesktopL {
+      display: none !important;
+    }
   }
+  
 }
 
 .open {

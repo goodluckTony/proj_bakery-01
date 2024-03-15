@@ -126,19 +126,31 @@
   }
   
   &__list {
-    padding-top: 16px;
+
+    &--footer {
+
+      padding-top: 16px;
+    }
   }
 
   &__items {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+
+    &--footer {
+
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
   }
 
   &__link {
-    color: #FFF;
+
+    &--footer {
+      
+      color: #FFF;
+    }
 
     &:hover {
       transition: all 0.5s;
